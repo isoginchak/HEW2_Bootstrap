@@ -1,3 +1,26 @@
 body{
   font-family: '游ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo' !important;
 }
+
+@media screen and (min-width:768px) {
+/*【タブレット用】画面サイズが768px以上だったらここを読み込む*/
+  .ranking1{
+    height: 350px;
+  }
+
+  .ranking{
+    height: 150px;
+  }
+}
+
+
+@media screen and (max-width:480px) {
+/*　【スマホ用】　画面サイズが480px以上だったらここを読み込む　*/
+.ranking1{
+  height: 200px;
+}
+
+.ranking{
+  height: 200px;
+}
+}
