@@ -1,7 +1,6 @@
 body{
   font-family: '游ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo' !important;
 }
-
 @media screen and (min-width:768px) {
 /*【タブレット用】画面サイズが768px以上だったらここを読み込む*/
   .ranking1{
@@ -11,7 +10,13 @@ body{
   .ranking{
     height: 150px;
   }
+
+  .snsimg{
+    height: 350px;
+  }
 }
+
+
 
 
 @media screen and (max-width:480px) {
