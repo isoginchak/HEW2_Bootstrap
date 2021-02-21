@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Crea/</title>
+  <title>Crea/カート</title>
   <!-- MDB icon -->
-    <link rel="icon" href="img/crea_favicon.png" type="image/x-icon">
+  <link rel="icon" href="img/crea_favicon.png" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -31,8 +31,7 @@
 
       <!-- Collapse button -->
       <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="dark-blue-text"><i
-        class="fas fa-bars fa-1x"></i></span>
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
       </button>
 
       <!-- Collapsible content -->
@@ -84,20 +83,89 @@
 
   </nav>
   <!--/.Navbar-->
-
-  <div class="container my-5">
+  <div class="container my-5 py-3 z-depth-1 rounded">
 
 
     <!--Section: Content-->
-    <section>
+    <section class="dark-grey-text">
+
+      <!-- Shopping Cart table -->
+      <div class="table-responsive">
+
+        <table class="table product-table mb-0">
+
+          <!-- Table head -->
+          <thead class="mdb-color lighten-5">
+            <tr>
+              <th>使用品画像(表)</th>
+              <th>使用品画像(表)</th>
+              <th class="font-weight-bold">
+                <strong>商品名</strong>
+              </th>
 
 
+              <th class="font-weight-bold">
+                <strong>値段</strong>
+              </th>
+              <th></th>
+
+            </tr>
+          </thead>
+          <!-- /.Table head -->
+
+          <!-- Table body -->
+          <tbody>
+
+            <!-- ここをfor文で繰り返す-->
+            <tr>
+              <th scope="row">
+                <img src="img/omote.png" alt="" class="img-fluid z-depth-0" style="width:300px">
+              </th>
+              <th scope="row">
+                <img src="img/ura.png" alt="" class="img-fluid z-depth-0" style="width:300px">
+              </th>
+              <td>
+                <h5 class="mt-3">
+                  <strong>iPhone</strong>
+                </h5>
+              </td>
+
+              <td>
+                <h5 class="mt-3">
+                  <strong>500円</strong>
+                </h5>
+              </td>
+              <td class="font-weight-bold">
+              </td>
+            </tr>
+            <!-- ここまで -->
+
+
+
+            <!-- Fourth row -->
+            <td colspan="2"></td>
+
+            <td colspan="3" class="text-right">
+              <button type="button" class="btn btn-blue-grey btn-rounded">購入
+                <i class="fas fa-angle-right right"></i>
+              </button>
+            </td>
+            </tr>
+            <!-- Fourth row -->
+
+          </tbody>
+          <!-- /.Table body -->
+
+        </table>
+
+      </div>
+      <!-- /.Shopping Cart table -->
 
     </section>
+    <!--Section: Content-->
+
 
   </div>
-
-
 
   <!-- Footer -->
   <footer class="page-footer font-small  grey darken-3 pt-4">

@@ -1,31 +1,45 @@
-body{
+body {
   font-family: '游ゴシック', 'Yu Gothic', 'メイリオ', 'Meiryo' !important;
 }
+
 @media screen and (min-width:768px) {
-/*【タブレット用】画面サイズが768px以上だったらここを読み込む*/
-  .ranking1{
+
+  /*【タブレット用】画面サイズが768px以上だったらここを読み込む*/
+  .ranking1 {
     height: 350px;
   }
 
-  .ranking{
+  .ranking {
     height: 150px;
   }
 
-  .snsimg{
+  .snsimg {
     height: 350px;
+  }
+
+  .positiona {
+    position: absolute;
+    bottom: 0px;
+  }
+
+  .positionr {
+    height: 380px;
+    position: relative;
   }
 }
 
-
-
-
 @media screen and (max-width:480px) {
-/*　【スマホ用】　画面サイズが480px以上だったらここを読み込む　*/
-.ranking1{
-  height: 200px;
+
+  /*　【スマホ用】　画面サイズが480px以上だったらここを読み込む　*/
+  .ranking1 {
+    height: 200px;
+  }
+
+  .ranking {
+    height: 200px;
+  }
 }
 
-.ranking{
-  height: 200px;
-}
+.navbar.navbar-dark .navbar-toggler {
+  color: #000 !important;
 }

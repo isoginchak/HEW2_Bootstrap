@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+
+/* main .wrap{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .smallimg_wrap {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+main .small_img {
+  display: flex;
+  width: 220px;
+  justify-content: space-around;
+  margin: 10px auto;
+}
+
+main .img .small_img img {
+  width: 100px;
+  vertical-align: middle;
+}
+
+main .big_img{
+  width :400px;
+  height: 400px;
+  display: inline-flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+main .button {
+  border-radius: 45px;
+  border: solid 1px #747474;
+  width: 200px;
+  height: 60px;
+  font-size: 20px;
+}
+
+main .button a {
+  text-decoration: none;
+  line-height: 60px;
+  text-align: center;
+  color: #747474;
+}
+
+main .button_wrap {
+  display: flex;
+  width: 500px;
+  justify-content: space-around;
+}
+
+main .button a:visited {
+  color: #747474;
+}
+
+main .button:hover {
+  transform: scale(1.1);
+}
+
+main .text {
+  width: 500px;
+}
+
+main .text h3 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+main .text h4 {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+main .text p {
+  padding: 15px;
+  background-color: #E5E5FF;
+  border-radius: 10px;
+  min-height: 100px;
+  margin-bottom: 20px;
+}
+
+main .cm_btn {
+  border-radius: 45px;
+  border: solid 1px #747474;
+  background-color: none;
+  width: 130px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+main .border {
+  border-top: solid 1px #747474;
+}
+
+main .cm_btn:hover {
+  transform: scale(1.1);
+}
+
+main .cm_text {
+  width: 800px;
+  margin: 20px auto 0 auto;
+  height: 50px;
+  border: solid 1px #747474;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+main .comment {
+  margin: 30px auto;
+}
+
+main .comment h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+main .comment p {
+  font-size: 18px;
+  height: 50px;
+  margin-bottom: 10px;
+  background-color: #E5E5FF;
+  border-radius: 10px;
+  width: 800px;
+  line-height: 50px;
+} */

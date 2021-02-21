@@ -24,17 +24,15 @@
 
   <!-- Start your project here-->
   <!--Navbar-->
-
-  <nav class="navbar navbar-expand-lg navbar-dark  rgba-black-slight">
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top white">
     <div class="container">
-
-
       <!-- Navbar brand -->
       <a class="navbar-brand" href="#"><img src="img/mojilogo.png" alt="" class="img-rounded center-block" width="100px"></a>
 
       <!-- Collapse button -->
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span>
       </button>
 
       <!-- Collapsible content -->
@@ -62,17 +60,22 @@
 
         <div class="navbar-right">
           <ul class="navbar-nav ml-auto nav-flex-icons mr-auto">
+
+            <!-- サインイン↓ -->
+            <li class="nav-item">
+              <a class="nav-link waves-effect text-muted">
+                <i class="fas fa-user-circle fa-l"></i>
+              </a>
+            </li>
+
             <li class="nav-item">
               <a class="nav-link waves-effect text-muted">
                 <i class="fas fa-shopping-cart fa-l"></i>
               </a>
             </li>
+
           </ul>
         </div>
-
-
-
-
         </ul>
 
       </div>
@@ -82,41 +85,43 @@
   </nav>
   <!--/.Navbar-->
 
-  <div class="container py-5 my-5">
+
+  <div class="container my-5">
     <section class="p-md-3 mx-md-5 text-center text-lg-left">
       <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">購入履歴</h3>
       <div class="row">
 
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-              <img src="img/sample1.png" class="img-fluid" />
+          <div class="card positionr">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img src="img/sample1.png" class="img-fluid w-75 mt-4 mx-auto"  />
             </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Button</a>
+            <div class="card-body my-4 positiona mx-auto">
+              <a href="#" class="btn btn-blue-grey">再編集</a>
             </div>
-          </div>
+
         </div>
+      </div>
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-              <img src="img/sample2.png" class="img-fluid" />
+          <div class="card positionr">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img src="img/sample2.png" class="img-fluid w-75 mt-4 mx-auto" />
             </div>
-            <div class="card-body">
-              <a href="#" class="btn btn-primary">Button</a>
+            <div class="card-body my-4 positiona mx-auto" >
+              <a href="#" class="btn btn-blue-grey ">再編集</a>
             </div>
-          </div>
+
         </div>
+      </div>
         <div class="col-lg-4 mb-4">
-          <div class="card">
-            <div class="avatar w-100 white d-flex justify-content-center align-items-center">
-              <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(29).jpg" class="img-fluid" />
+          <div class="card positionr">
+            <div class="avatar white d-flex justify-content-center align-items-center">
+              <img src="img/sample1.png" class="img-fluid w-75 mt-4 mx-auto" />
             </div>
-            <div class="card-body">
-              <p class="font-weight-bold my-2">Anna Smith</p>
-              <p class="text-muted">Backend Developer</p>
+            <div class="card-body my-4 positiona mx-auto" >
+              <a href="#" class="btn btn-blue-grey">再編集</a>
             </div>
-      
+
         </div>
       </div>
     </div>
