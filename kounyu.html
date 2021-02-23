@@ -5,9 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Crea/お気に入り履歴</title>
+  <title>Crea/購入画面</title>
   <!-- MDB icon -->
-    <link rel="icon" href="img/crea_favicon.png" type="image/x-icon">
+  <link rel="icon" href="img/crea_favicon.png" type="image/x-icon">
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
   <!-- Google Fonts Roboto -->
@@ -27,39 +27,39 @@
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top white">
     <div class="container">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img src="img/mojilogo.png" alt="" class="img-rounded center-block" width="100px"></a>
-
+      <a class="navbar-brand" href="/"><img src="/bootstrap/img/mojilogo.png" alt="" class="img-rounded center-block" width="100px"></a>
       <!-- Collapse button -->
       <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="dark-blue-text"><i
-        class="fas fa-bars fa-1x"></i></span>
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
       </button>
-
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse text-dark" id="basicExampleNav">
-
         <!-- Links -->
         <ul class="navbar-nav mr-auto ">
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle  text-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カスタマイズ</a>
             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item " href="#">ポーチ</a>
-              <a class="dropdown-item " href="#">パスケース</a>
-              <a class="dropdown-item " href="#">Tシャツ</a>
+              <a class="dropdown-item " href="/customize/1">ポーチ</a>
+              <a class="dropdown-item " href="/customize/2">パスケース</a>
+              <a class="dropdown-item " href="/customize/3">Tシャツ</a>
             </div>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#">SNS</a>
+            <a class="nav-link  text-dark" href="/view/1">SNS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#">マイページ</a>
+            <a class="nav-link  text-dark" href="/mypage">マイページ</a>
           </li>
         </ul>
-
         <div class="navbar-right">
           <ul class="navbar-nav ml-auto nav-flex-icons mr-auto">
+            <!-- サインイン↓ -->
+            <li class="nav-item">
+              <a class="nav-link waves-effect text-muted">
+                <i class="fas fa-user-circle fa-l"></i>
+              </a>
+            </li>
             <li class="nav-item">
               <a class="nav-link waves-effect text-muted">
                 <i class="fas fa-shopping-cart fa-l"></i>
@@ -68,55 +68,173 @@
           </ul>
         </div>
         </ul>
-
       </div>
       <!-- Collapsible content -->
     </div>
-
   </nav>
   <!--/.Navbar-->
 
+  <div class="container my-5 py-3 z-depth-1 rounded">
 
-  <div class="container my-5">
-    <section class="p-md-3 mx-md-5 text-center text-lg-left">
-      <h3 class="font-weight-bold black-text mb-4 pb-2 text-center">お気に入り履歴</h3>
-      <div class="row">
 
-        <div class="col-lg-4 mb-4">
-          <div class="card positionr">
-            <div class="avatar white d-flex justify-content-center align-items-center">
-              <img src="img/sample1.png" class="img-fluid w-75 mt-4 mx-auto"  />
-            </div>
-            <div class="card-body my-4 positiona mx-auto">
-              <a href="#" class="btn btn-blue-grey">再編集</a>
-            </div>
+    <!--Section: Content-->
+    <section class="dark-grey-text">
 
-        </div>
+      <!-- Shopping Cart table -->
+      <div class="table-responsive">
+
+        <table class="table product-table mb-0">
+
+          <!-- Table head -->
+          <thead class="mdb-color lighten-5">
+            <tr>
+              <th>使用品画像(表)</th>
+              <th>使用品画像(表)</th>
+
+              <th></th>
+
+              <th class="font-weight-bold">
+                <strong>購入数</strong>
+              </th>
+              <th></th>
+
+            </tr>
+          </thead>
+          <!-- /.Table head -->
+
+          <!-- Table body -->
+          <tbody>
+
+            <!-- ここをfor文で繰り返す-->
+            <tr>
+              <th scope="row">
+                <img src="img/omote.png" alt="" class="img-fluid z-depth-0" style="width:300px">
+              </th>
+              <th scope="row">
+                <img src="img/ura.png" alt="" class="img-fluid z-depth-0" style="width:300px">
+              </th>
+
+
+              <td>
+              </td>
+              <td class="font-weight-bold align-middle">
+                <input type="number" name="" value="" class="form-control">
+              </td>
+            </tr>
+
+            <!-- ここまで -->
+
+
+          </tbody>
+          <!-- /.Table body -->
+        </table>
+
       </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card positionr">
-            <div class="avatar white d-flex justify-content-center align-items-center">
-              <img src="img/sample2.png" class="img-fluid w-75 mt-4 mx-auto" />
-            </div>
-            <div class="card-body my-4 positiona mx-auto" >
-              <a href="#" class="btn btn-blue-grey ">再編集</a>
-            </div>
+      <!-- /.Shopping Cart table -->
 
-        </div>
-      </div>
-        <div class="col-lg-4 mb-4">
-          <div class="card positionr">
-            <div class="avatar white d-flex justify-content-center align-items-center">
-              <img src="img/sample1.png" class="img-fluid w-75 mt-4 mx-auto" />
-            </div>
-            <div class="card-body my-4 positiona mx-auto" >
-              <a href="#" class="btn btn-blue-grey">再編集</a>
-            </div>
-
-        </div>
-      </div>
-    </div>
     </section>
+    <!--Section: Content-->
+
+  </div>
+
+  <div class="container my-5 py-3 z-depth-1 rounded">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>決済方法</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <p>コンビニ/ATM</p>
+            <p>手数料210円</p>
+            <input type="checkbox" name="form1" value="">
+            <label for="form1">上記決済方法を保存</label>
+          </div>
+            <div class="col-md-4">
+              <button class="btn btn-block btn-blue-grey btn-sm mb-4 w-50 ">変更</button>
+            </div>
+
+        </div>
+
+
+        <hr>
+
+        <h3>発送先住所</h3>
+        <div class="row">
+          <div class="col-md-8">
+            <p>名前：〇〇〇〇〇様</p>
+            <p>電話番号：000-0000-0000</p>
+            <p>郵便番号：000-0000</p>
+              <p>住所：東京都○○区○○1-2-3</p>
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-block btn-blue-grey btn-sm mb-4 w-50 ">変更</button>
+          </div>
+
+
+        </div>
+
+
+
+      </div>
+      <div class="col-md-6">
+        <div class="col-10 mx-auto mt-5">
+          <div class="row">
+            <div class="col-6">
+              <p>商品点数</p>
+
+            </div>
+            <div class="col-6">
+              <p>〇点</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <p>商品代金合計</p>
+
+            </div>
+            <div class="col-6">
+              <p>〇円</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-6">
+              <p>送料</p>
+
+            </div>
+            <div class="col-6">
+              <p>300円</p>
+            </div>
+          </div>
+          <hr>
+          <div class="row">
+            <div class="col-6">
+              <p>ご注文合計</p>
+
+            </div>
+            <div class="col-6">
+              <p>2160円</p>
+            </div>
+          </div>
+
+          <div class="row ">
+            <div class="col-6  d-flex align-items-center">
+                <a href="#" class="float-right"><i class="fas fa-angle-left mr-2"></i>戻る</a>
+            </div>
+            <div class="col-6">
+                <button class="btn btn-blue-grey btn-md mb-4">購入</button>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+      </div>
+
+    </div>
   </div>
 
 
