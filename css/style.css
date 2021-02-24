@@ -43,3 +43,7 @@ body {
 .navbar.navbar-dark .navbar-toggler {
   color: #000 !important;
 }
+
+.btext{
+  color: #78909c;
+}
