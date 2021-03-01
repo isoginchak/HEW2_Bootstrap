@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Crea/SNS</title>
+  <title>Crea/支払い情報</title>
   <!-- MDB icon -->
     <link rel="icon" href="img/crea_favicon.png" type="image/x-icon">
   <!-- Font Awesome -->
@@ -27,160 +27,126 @@
   <nav class="navbar navbar-expand-lg navbar-dark sticky-top white">
     <div class="container">
       <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><img src="img/mojilogo.png" alt="" class="img-rounded center-block" width="100px"></a>
-
+      <a class="navbar-brand" href="/"><img src="/bootstrap/img/mojilogo.png" alt="" class="img-rounded center-block" width="100px"></a>
       <!-- Collapse button -->
       <button class="navbar-toggler text-black" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="dark-blue-text"><i
-        class="fas fa-bars fa-1x"></i></span>
+        <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
       </button>
-
       <!-- Collapsible content -->
       <div class="collapse navbar-collapse text-dark" id="basicExampleNav">
-
         <!-- Links -->
         <ul class="navbar-nav mr-auto ">
           <!-- Dropdown -->
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle  text-dark" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">カスタマイズ</a>
             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item " href="#">ポーチ</a>
-              <a class="dropdown-item " href="#">パスケース</a>
-              <a class="dropdown-item " href="#">Tシャツ</a>
+              <a class="dropdown-item " href="/customize/1">ポーチ</a>
+              <a class="dropdown-item " href="/customize/2">パスケース</a>
+              <a class="dropdown-item " href="/customize/3">Tシャツ</a>
             </div>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#">SNS</a>
+            <a class="nav-link  text-dark" href="/view/1">SNS</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link  text-dark" href="#">マイページ</a>
+            <a class="nav-link  text-dark" href="/mypage">マイページ</a>
           </li>
         </ul>
-
         <div class="navbar-right">
           <ul class="navbar-nav ml-auto nav-flex-icons mr-auto">
-
             <!-- サインイン↓ -->
             <li class="nav-item">
               <a class="nav-link waves-effect text-muted">
                 <i class="fas fa-user-circle fa-l"></i>
               </a>
             </li>
-
             <li class="nav-item">
               <a class="nav-link waves-effect text-muted">
                 <i class="fas fa-shopping-cart fa-l"></i>
               </a>
             </li>
-
           </ul>
         </div>
         </ul>
-
       </div>
       <!-- Collapsible content -->
     </div>
-
   </nav>
   <!--/.Navbar-->
 
-
   <div class="container my-5">
-    <!-- Section heading -->
-    <h2 class="text-center font-weight-bold mb-4 pb-2">SNS</h2>
-    <!-- Section description -->
 
 
     <!--Section: Content-->
     <section class="dark-grey-text">
 
+      <!-- Section heading -->
+      <h3 class="text-center font-weight-bold mb-4 pb-2">支払い情報</h3>
 
+      <!--First row-->
+      <div class="row">
 
-      <!-- Grid row -->
-      <div class="row align-items-center">
+        <!--First column-->
+        <div class="col-md-7 mb-4 mx-auto">
 
-        <!-- Grid column -->
-        <div class="col-lg-5 col-xl-6">
+          <!-- Card -->
+          <div  class="card ">
 
-          <!-- Featured image -->
-          <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4  col-xl-10 p-4 d-flex align-items-center">
-            <img class="img-fluid" style="margin:0 auto" src="img/sample1.png" alt="商品画像">
-            <a>
-              <div class="mask rgba-white-slight"></div>
-            </a>
+            <!-- Card content -->
+            <div class="card-body">
+
+            	<div class="media">
+                <span class="card-img-100 d-inline-flex justify-content-center align-items-center rounded-circle grey lighten-3 mr-4">
+                  <i class="far fa-credit-card fa-2x btext"></i>
+                </span>
+                <div class="media-body">
+                  <h5 class="dark-grey-text mb-3">クレジットカード番号</h5>
+                  <p class="font-weight-light text-muted mb-0 h4">0000-0000-0000-0000</p>
+                </div>
+              </div>
+
+            </div>
+
           </div>
+          <!-- Card -->
 
         </div>
-        <!-- Grid column -->
+        <!--First column-->
 
-        <!-- Grid column -->
-        <div class="col-lg-7 col-xl-6">
+        <!--Second column-->
+        <div class="col-md-7 mb-4 mx-auto">
 
-          <!-- Post title -->
-          <h4 class="font-weight-bold mb-3"><strong>タイトル</strong></h4>
-          <!-- Excerpt -->
+          <!-- Card -->
+          <div  class="card">
 
-          <!-- Post data -->
-          <p>by <span class="font-weight-bold">Jessica Clark</span>, 19/04/2018</p>
-          <!-- Read more button -->
-          <a class="btn  btn-blue-grey btn-md mx-0 btn-rounded">詳細を見る</a>
+            <!-- Card content -->
+            <div class="card-body">
+
+            	<div class="media">
+                <span class="card-img-100 d-inline-flex justify-content-center align-items-center rounded-circle grey lighten-3 mr-4">
+                  <i class="far fa-credit-card fa-2x btext"></i>
+                </span>
+                <div class="media-body">
+                  <h5 class="dark-grey-text mb-3">カード会社</h5>
+                  <p class="font-weight-light text-muted mb-0 h3">VISA</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+          <!-- Card -->
+          <!-- Card -->
 
         </div>
-        <!-- Grid column -->
+        <!--Second column-->
 
       </div>
-      <!-- Grid row -->
+      <!--First row-->
 
+  	</section>
 
-      <hr class="my-5">
-
-    </section>
-    <!--Section: Content-->
-
-    <!--Section: Content-->
-    <section class="dark-grey-text">
-
-      <!-- Grid row -->
-      <div class="row align-items-center">
-
-        <!-- Grid column -->
-        <div class="col-lg-5 col-xl-6">
-
-          <!-- Featured image -->
-          <div class="view overlay rounded z-depth-1-half mb-lg-0 mb-4  col-xl-10 p-4 d-flex align-items-center">
-            <img class="img-fluid" style="margin:0 auto" src="img/sample2.png" alt="商品画像">
-            <a>
-              <div class="mask rgba-white-slight"></div>
-            </a>
-          </div>
-
-        </div>
-        <!-- Grid column -->
-
-        <!-- Grid column -->
-        <div class="col-lg-7 col-xl-6">
-
-          <!-- Post title -->
-          <h4 class="font-weight-bold mb-3"><strong>タイトル</strong></h4>
-          <!-- Excerpt -->
-
-          <!-- Post data -->
-          <p>by <span class="font-weight-bold">Jessica Clark</span>, 19/04/2018</p>
-          <!-- Read more button -->
-          <a class="btn btn-blue-grey btn-md mx-0 btn-rounded">詳細を見る</a>
-
-        </div>
-        <!-- Grid column -->
-
-      </div>
-      <!-- Grid row -->
-
-
-      <hr class="my-5">
-
-    </section>
-    <!--Section: Content-->
+  <button class="btn btn-block btn-blue-grey btn-lg mb-4 col-7">変更</button>
 
 
   </div>
